@@ -5,11 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-}
-
-p {
-    padding: 0.5rem;
+    background-color: palevioletred
 }
 
 #introduction {
@@ -34,3 +30,10 @@ header {
     color: rgb(216, 194, 197);
 }
 
+.games {
+    background-color: aliceblue;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 10px black;
+}
