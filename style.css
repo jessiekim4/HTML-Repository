@@ -8,16 +8,6 @@ body {
     background-color: palevioletred
 }
 
-#introduction {
-    text-align: center;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1 {
     text-align: center;
 }
@@ -30,10 +20,45 @@ header {
     color: rgb(216, 194, 197);
 }
 
+#introduction {
+    text-align: center;
+}
+
 .games {
     background-color: aliceblue;
     margin-left: 2rem;
     margin-right: 2rem;
     padding: 0.5rem;
     box-shadow: 0 0 10px black;
+}
+
+.slider {
+    position: relative;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.next, .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
 }
