@@ -23,8 +23,17 @@
 
     <div class="games">
         <h1>Lobotomy Corporation</h1>
-        <img id="LobotomyCorp" class="center" src="https://cdn.cloudflare.steamstatic.com/steam/apps/568220/ss_54183ee9d7dc3d125df090c2fb69bc32c8bc50bc.1920x1080.jpg?t=1636694188"
-            height="500" alt="LobCorp">
+        
+        <!--A slider container which contains all the images and prev/next buttons for the image slider-->
+        <div class="slider">
+            <img class="lobcorp_slides" src="LobCorp/ss_7f8118a7b224505b397f481e8187fb647a3a42c6.jpg" alt="Image 1">
+            <img class="lobcorp_slides" src="LobCorp/ss_71db0d954dcec5585f201a781db6dac2df041b85.jpg" alt="Image 2">
+            <img class="lobcorp_slides" src="LobCorp/ss_54183ee9d7dc3d125df090c2fb69bc32c8bc50bc.jpg" alt="Image 3">
+
+            <button class="prev" onclick="plusSlide(-1, 0)">&#10094;</button>
+            <button class="next" onclick="plusSlide(1, 0)">&#10095;</button>
+        </div>
+
         <p>
             Have you heard of SCP's? Enjoy them even? If so, this is the perfect game for you! Lobotomy Corporation is game made by 
             a Korean indie game developing company: Project Moon. It is a monster management "simulation" where you are the manager of of this 
@@ -54,7 +63,14 @@
     
         <h1>Library of Ruina</h1>
     
-        <img id="LibraryOfRuina" class="center" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1256670/capsule_616x353.jpg?t=1670980516" height="500" alt="LoR">
+        <div class="slider">
+            <img class="lor_slides" src="LoR/ss_43f3c74028922a9e0a80be23b52e90c9cb727417.jpg" alt="Image 1">
+            <img class="lor_slides" src="LoR/ss_31224734740c90faf7e9d9986962c1133e0dd2c3.jpg" alt="Image 2">
+            <img class="lor_slides" src="LoR/ss_c80e2ea36a79f73d87e9740f470054199a1f5e55.jpg" alt="Image 3">
+
+            <button class="prev" onclick="plusSlide(-1, 1)">&#10094;</button>
+            <button class="next" onclick="plusSlide(1, 1)">&#10095;</button>
+        </div>
     
         <p>
             And here is the sequel to Lobotomy Corporation! To avoid spoilers, I will just go over the basics:
@@ -92,7 +108,14 @@
     
         <h1>Stardew Valley</h1>
     
-        <img id="StardewValley" class="center" src="https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1666917466" height="500" alt="Stardew">
+        <div class="slider">
+            <img class="stardew_slides" src="Stardew/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.jpg" alt="Image 1">
+            <img class="stardew_slides" src="Stardew/ss_30aeedc47e731232ade368831a598d6545346f70.jpg" alt="Image 2">
+            <img class="stardew_slides" src="Stardew/ss_b887651a93b0525739049eb4194f633de2df75be.jpg" alt="Image 3">
+
+            <button class="prev" onclick="plusSlide(-1, 2)">&#10094;</button>
+            <button class="next" onclick="plusSlide(1, 2)">&#10095;</button>
+        </div>
     
         <p>
             Here's a game most cozy game players know of! Stardew valley is a farming game where you, the farmer, travel to your grandfather's old
@@ -117,7 +140,14 @@
     
         <h1>Papa's Freezeria Deluxe</h1>
     
-        <img id="PapasFreezeriaDeluxe" class="center" src="https://cdn.akamai.steamstatic.com/steam/apps/2291760/capsule_616x353.jpg?t=1700157490" height="500" alt="Freezeria">
+        <div class="slider">
+            <img class="freezeria_slides" src="Freezeria/ss_0dea2f637568c519c2e4dac588230a077969161c.jpg" alt="Image 1">
+            <img class="freezeria_slides" src="Freezeria/ss_603a27f00bf74b729b41d76dbeb27efa652b20c1.jpg" alt="Image 2">
+            <img class="freezeria_slides" src="Freezeria/ss_1232bd5d3d2a63809e9259113c217742a92754dd.jpg" alt="Image 3">
+
+            <button class="prev" onclick="plusSlide(-1, 3)">&#10094;</button>
+            <button class="next" onclick="plusSlide(1, 3)">&#10095;</button>
+        </div>
     
         <p>
             I grew up with flash games back in the day, and Papa Louie games are no exception. And now that Flash has ended, one of their games 
@@ -145,6 +175,8 @@
     
         <p>Link to the Steam page is <a href="https://store.steampowered.com/app/2291760/Papas_Freezeria_Deluxe/" target="_blank" rel="noopener noreferrer">HERE</a>.</p>
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
